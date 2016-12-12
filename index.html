@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
+        <title> Chiemi's Recipe </title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -16,8 +16,34 @@
         <![endif]-->
     </head>
     <body>
+        
+        <section class="chiemi-recipe">
+            
+        <p class="notify"></p>
+        
+        <h1> Chiemi's Recipe </h1>
+        
+        <p>* denotes a required field.</p>
+            
+        <form name="recipeForm" action="php/recipe.php" onsubmit="return validation()" method="post">
+            
+            <p>
+                <label for="themenu">Menue*:</label>
+                <input type="text" name="menue" id="mymenue">
+            </p>
+            
+            <p>
+               <label for="therecipe">Recipe*:</label>
+               <input type="text"  name="recipe" id="myrecipe">
+ 
+            </p>
+            
+            <input type="submit" value="Submit">
+            
+        </form>
 
-        <p>Hello world! This is HTML5 Boilerplate.</p>
-
+       </section>
+       
+        <script src="js/main.js"></script>
     </body>
 </html>
