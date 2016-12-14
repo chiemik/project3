@@ -21,7 +21,7 @@ hr {
     height: 1px;
     border: 0;
     border-top: 1px solid #ccc;
-    margin: 1em 0;
+    margin : 1em 0;
     padding: 0;
 }
 
@@ -57,16 +57,23 @@ textarea {
    ========================================================================== */
 
 
+
 body {
     background: #426b47;
+
 }
+
 
 .main {
     background: #ffffff;
     padding: 20px;
     width: 80%;
     margin: 0 10%;
-    margin-top: 30px ; 
+    margin-top: 30px ;
+ 
+    
+
+    
 }
 
 .our-jquery {
